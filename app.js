@@ -129,3 +129,17 @@ for(let i=0;i<numeros.length;i++){
 console.log(contP)
 
 // Modificar Ejercicio anterior para que muestre la cantidad de impares
+
+let tarea=0;
+function es_impar(nem){
+    if(nem % 2 == 1)
+        return true
+    return false
+}
+
+for(let i=0;i<numeros.length;i++){
+    if(es_impar(numeros[i]))
+        tarea++;
+}
+
+console.log(tarea)
